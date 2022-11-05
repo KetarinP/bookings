@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "e637baff-2f6b-410b-9b4d-74b45c4d7ea7",
+		"name": "Aviation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24193944"
+	},
+	"item": [
+		{
+			"name": "GET_DCA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.aviationapi.com/v1/charts?apt=DCA",
+					"protocol": "https",
+					"host": [
+						"api",
+						"aviationapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"charts"
+					],
+					"query": [
+						{
+							"key": "apt",
+							"value": "DCA"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_CLT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.aviationapi.com/v1/charts/changes?apt=CLT",
+					"protocol": "https",
+					"host": [
+						"api",
+						"aviationapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"charts",
+						"changes"
+					],
+					"query": [
+						{
+							"key": "apt",
+							"value": "CLT"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_DCA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.aviationapi.com/v1/airports?apt=DCA",
+					"protocol": "https",
+					"host": [
+						"api",
+						"aviationapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"airports"
+					],
+					"query": [
+						{
+							"key": "apt",
+							"value": "DCA"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_dca",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.aviationapi.com/v1/vatsim/pilots?apt=dca",
+					"protocol": "https",
+					"host": [
+						"api",
+						"aviationapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"vatsim",
+						"pilots"
+					],
+					"query": [
+						{
+							"key": "apt",
+							"value": "dca"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
